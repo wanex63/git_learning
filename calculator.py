@@ -1,3 +1,5 @@
+это наш комментарий
+
 class Calculator:
     def __init__(self):
         self.last_result = None  # Переменная для хранения последнего результата
