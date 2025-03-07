@@ -7,6 +7,14 @@ class Calculator:
         self.last_result = a + b
         return self.last_result
 
+    def divide(self, a: float, b: float) -> float:
+        """Деление двух чисел."""
+        if b == 0:
+            raise ValueError("Деление на ноль невозможно.")
+        self.last_result = a / b
+        return self.last_result
+
+
     def print_last_res(self):
         """Печать последнего результата."""
         if self.last_result is not None:
