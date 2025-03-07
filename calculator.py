@@ -19,6 +19,10 @@ class Calculator:
         self.last_result = a / b
         return self.last_result
 
+    def subtract(self, a: float, b: float) -> float:
+        """Вычитание двух чисел."""
+        self.last_result = a - b
+        return self.last_result
 
     def print_last_res(self):
         """Печать последнего результата."""
